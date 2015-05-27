@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Product Hub | Admin Section</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Product Hub | Registration / Login</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/modern-business.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+
+            <div class="navbar-header">
+               <a class="navbar-brand" href="index.php"><font color="#5D5959">Product</font><font color="#56ABB4"> Hub</font></a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#"><font color="#56ABB4">Admin Panel</font></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Registration
+                    <small>Login</small>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Home</a>
+                    </li>
+                    <li class="active">Admin</li>
+                </ol>
+                <ol class="breadcrumb">
+                    <li class="active">Admin Login Section</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="container">
+                <div  class="form">
+                <font color="#5D5959"><h4>Admin Login:</h4></font>
+                <br/>
+                    <form id="contactform_login" name="registration_login" method="post" action="admin.php"> 
+                        
+                        <p class="contact"><label for="CategoryName">CategoryName</label></p>
+                        <select Name="admin">
+                          <option value="">Select Admin</option>
+                          <option value="Admin_Dean">Admin Dean</option>
+                          <option value="Admin_Derek">Admin Derek</option>
+                        </select>
+                         <br/>
+                         <br/>
+                        <p class="contact"><label for="Password">Password</label></p> 
+                        <input type="password" name="password" value="" id="password" placeholder="Please Enter Your password" required="" tabindex="2" title="Please Enter password"required>
+                        
+                        <input type="submit" name="submit" value="Login" tabindex="3">
+                    </form> 
+                </div>      
+            </div>
+        </div>
+        <hr>
+
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; <font color="#5D5959">Product</font><font color="#56ABB4"> Hub</font></p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="js/jquery.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
